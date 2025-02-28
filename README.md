@@ -5,11 +5,12 @@ be used to create components with overridable defaults.
 ## Installation
 
 ```sh
-npm install tailwindcss-unimportant
+npm install @dannypas00/tailwindcss-unimportant
 ```
 
-Add the `tailwindcss-unimportant` plugin to your `tailwind.config.js` file.
+Add the `@dannypas00/tailwindcss-unimportant` plugin to your tailwind:
 
+### Tailwind 3
 ```js
 // tailwind.config.js
 module.exports = {
@@ -25,6 +26,13 @@ configuration, you will need to pass it in as an option to the plugin.
 module.exports = {
   plugins: [require('tailwindcss-unimportant')({ important: '[my-custom-selector]' })],
 }
+```
+
+### Tailwind 4
+```css
+@import 'tailwindcss';
+@plugin 'tailwindcss-unimportant';
+...
 ```
 
 ## Getting started

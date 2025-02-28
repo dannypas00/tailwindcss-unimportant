@@ -1,14 +1,14 @@
 {
-  "name": "tailwindcss-unimportant",
-  "version": "2.1.1",
-  "description": "Adds lower specificity tailwindcss utility classes to be used in components",
+  "name": "@dannypas00/tailwindcss-unimportant",
+  "version": "3.0.0",
+  "description": "Adds lower specificity tailwindcss utility classes to be used in components. Forked from mwnciau to support tailwind 4",
   "main": "src/index.js",
   "peerDependencies": {
-    "tailwindcss": "^3.0.0"
+    "tailwindcss": "^3.0.0|^4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mwnciau/tailwindcss-unimportant.git"
+    "url": "git+https://github.com/dannypas00/tailwindcss-unimportant.git"
   },
   "keywords": [
     "tailwind",
@@ -17,10 +17,10 @@
     "css",
     "javascript"
   ],
-  "author": "Simon Jarrett",
+  "author": "Danny Pas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mwnciau/tailwindcss-unimportant/issues"
+    "url": "https://github.com/dannypas00/tailwindcss-unimportant/issues"
   },
-  "homepage": "https://github.com/mwnciau/tailwindcss-unimportant#readme"
+  "homepage": "https://github.com/dannypas00/tailwindcss-unimportant#readme"
 }
