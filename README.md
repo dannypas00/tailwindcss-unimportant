@@ -31,7 +31,7 @@ module.exports = {
 ### Tailwind 4
 ```css
 @import 'tailwindcss';
-@plugin 'tailwindcss-unimportant';
+@plugin '@dannypas00/tailwindcss-unimportant';
 ...
 ```
 
